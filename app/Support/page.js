@@ -15,9 +15,9 @@ export default function Support() {
         <div className="card my-8 p-10 shadow-sm hover:shadow-lg w-[100%] justify-center items-center flex flex-col gap-5">
           <div className="card sm:w-[50%] w-[90%] h-[100%] gap-5 rounded-sm bg-cyan-600 shadow-sm hover:shadow-lg text-white flex flex-col justify-center items-center sm:p-7 text-center p-4 my-8">
             <p className="w-[90%] lg:w-[70%] text-xl">
-              Welcome to GoalGo Support Center! Here, we've got all the
+              Welcome to GoalGo Support Center! Here, we&#39ve got all the
               information you need to make the most of your experience with
-              GoalGo. <br /> Let's help you achieve your Goals!
+              GoalGo. <br /> Let&#39s help you achieve your Goals!
             </p>
           </div>
         </div>
