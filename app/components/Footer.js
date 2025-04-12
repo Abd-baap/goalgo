@@ -4,7 +4,7 @@ export default function Footer() {
     return (
       <div className="footer my-8 w-screen flex flex-col gap-6 p-2 bottom-0 py-3 border rounded-md justify-center items-center text-center">
         <h1 className="text-xl font-bold">Dream Plan And Achieve with GoalGo</h1>
-        <p>If You Want to Let us Know What We Didn't, We Will Be Grateful</p>
+        <p>If You Want to Let us Know What We Didn&#39t, We Will Be Grateful</p>
         <div className="flex sm:flex-row flex-col gap-2 sm:justify-around w-[100%] items-center">
           <div className="flex contacts flex-col justify-center items-center">
             <h1 className="font-bold">Contacts</h1>
@@ -29,7 +29,7 @@ export default function Footer() {
             </span>
           </div>
         </div>
-        <p className="Quote">"For With God, Nothing Shall Be Impossible."-Luke 1:37</p>
+        <p className="Quote">&#39For With God, Nothing Shall Be Impossible.&#39-Luke 1:37</p>
         <p className="flex gap-1">© 2025 Achieve Your Goals. All Rights Reserved</p>
       </div>
     );
