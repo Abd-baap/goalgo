@@ -79,7 +79,7 @@ export default function About() {
             <h2 className="text-3xl font-bold text-cyan-600">Meet the Founder:</h2>
             <ul className="gap-3 text-xl">
               <li className="font-bold">
-                Abhigya Ajmani -{" "}
+                Abhigya Ajmani
                 <span className="text-xl font-medium">
                   A beginner web developer dedicated to building user-friendly
                   tools.
@@ -96,19 +96,19 @@ export default function About() {
             <h2 className="text-3xl font-bold text-cyan-600">How It Works:</h2>
             <ul className="gap-3 text-xl">
               <li className="font-bold">
-                Set Your Goals:{" "}
+                Set Your Goals:
                 <span className="text-xl font-medium">
                   Define clear, measurable goals that matter to you.
                 </span>
               </li>
               <li className="font-bold">
-                Track Your Progress:{" "}
+                Track Your Progress:
                 <span className="text-xl font-medium">
                   Use our intuitive tools to monitor and stay on track.
                 </span>
               </li>
               <li className="font-bold">
-                Achieve Success:{" "}
+                Achieve Success:
                 <span className="text-xl font-medium">
                   Celebrate your accomplishments along the way.
                 </span>
@@ -125,7 +125,7 @@ export default function About() {
               <li className="font-bold">
                 What is GoalGo?
                 <span className="text-xl font-medium">
-                  {" "}
+                  
                   ⇒ GoalGo is a platform designed to help you set, track, and
                   achieve your personal and professional goals with ease.
                 </span>
@@ -133,7 +133,7 @@ export default function About() {
               <li className="font-bold">
                 Who is GoalGo for?
                 <span className="text-xl font-medium">
-                  {" "}
+                  
                   ⇒ GoalGo is for anyone who wants to stay organized, motivated,
                   and productive—whether you're a student, professional, or
                   entrepreneur.
@@ -142,7 +142,7 @@ export default function About() {
               <li className="font-bold">
                 Can I use GoalGo on multiple devices?
                 <span className="text-xl font-medium">
-                  {" "}
+                  
                   ⇒ Yes, GoalGo is available on desktop and mobile, so you can
                   access your goals and progress anytime, anywhere.
                 </span>
@@ -150,7 +150,7 @@ export default function About() {
               <li className="font-bold">
                 How can GoalGo help me stay motivated?
                 <span className="text-xl font-medium">
-                  {" "}
+                  
                   ⇒ With features like progress tracking and motivational
                   insights, GoalGo helps you stay focused and celebrate small
                   wins along the way.
@@ -159,7 +159,7 @@ export default function About() {
               <li className="font-bold">
                 Who do I contact for support?
                 <span className="text-xl font-medium">
-                  {" "}
+                
                   ⇒ For any questions or support, feel free to reach out to us
                   at support@abhigya.abd.com.
                 </span>
