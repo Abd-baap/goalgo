@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 import React, { useState,useEffect } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 export default function Goal() {
@@ -83,7 +84,7 @@ const deletegoal = () => {
           </span>
           <span>{time}</span>
           <button onClick={()=>deletegoal()}>
-            <img
+            <Image
               alt="trash-bin"
               loading="lazy"
               width="50"
