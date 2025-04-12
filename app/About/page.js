@@ -135,7 +135,7 @@ export default function About() {
                 <span className="text-xl font-medium">
                   
                   ⇒ GoalGo is for anyone who wants to stay organized, motivated,
-                  and productive—whether you're a student, professional, or
+                  and productive—whether you &#39 re a student, professional, or
                   entrepreneur.
                 </span>
               </li>
