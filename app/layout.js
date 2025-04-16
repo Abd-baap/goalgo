@@ -1,7 +1,7 @@
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import './globals.css';
-
+import Script from 'next/script'
 export const metadata = {
   title: "GoalGo - Achieve Your Dreams",
   description: "GoalGo helps you set, track, and achieve your goals. Transform your dreams into reality with tools, inspiration, and expert guidance.",
@@ -20,14 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YNK6RVPV5S"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-YNK6RVPV5S');
-</script>
   
     <meta name="google-site-verification" content="ALiT_2SFuPzAm6sWLLTX9A-G1SfuZgzgrSAK3Yns-vk" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6836466532865002"
@@ -48,6 +41,26 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
+       <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-YNK6RVPV5S"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-YNK6RVPV5S');
+            `}
+          </Script>
+
+          {/* Google AdSense */}
+          <Script
+            strategy="afterInteractive"
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6836466532865002"
+            crossOrigin="anonymous"
+          />
       </body>
     </html>
   );
