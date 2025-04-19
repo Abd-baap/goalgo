@@ -1,1 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://goal-go.vercel.app/sitemap.xml
 
