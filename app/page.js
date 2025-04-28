@@ -12,7 +12,7 @@ export default function Home() {
             The Psychology Behind Setting Goals
           </span>
           <span className="w-[100%]">
-            Setting goals is more than just writing down what we want to achieve — it's deeply rooted in psychology. Goals give our actions purpose, helping our brains stay motivated and focused. When we set a specific goal, our mind treats it like a mission, creating a sense of urgency and direction. Studies show that people who write down their goals are significantly more likely to succeed because it activates parts of the brain linked to focus and memory. Goals also trigger the release of dopamine, a "feel-good" chemical, every time we make progress, which keeps us motivated to continue. In short, setting goals isn’t just helpful — it’s how our brains are wired to turn dreams into reality.
+            Setting goals is more than just writing down what we want to achieve — it&apos;s deeply rooted in psychology. Goals give our actions purpose, helping our brains stay motivated and focused. When we set a specific goal, our mind treats it like a mission, creating a sense of urgency and direction. Studies show that people who write down their goals are significantly more likely to succeed because it activates parts of the brain linked to focus and memory. Goals also trigger the release of dopamine, a &quot;feel-good&quot; chemical, every time we make progress, which keeps us motivated to continue. In short, setting goals isn&apos;t just helpful — it&apos;s how our brains are wired to turn dreams into reality.
           </span>
         </div>
         <GoalOptions />
@@ -20,4 +20,4 @@ export default function Home() {
       </main>
     </div>
   );
-}
+    }
