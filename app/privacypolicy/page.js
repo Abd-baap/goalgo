@@ -58,7 +58,7 @@ export default function PrivacyPolicy() {
 
         <section className="space-y-6">
           <h2 className="text-2xl font-semibold">9. Contact Us</h2>
-          <p>If you have any questions or concerns about our Privacy Policy or how we handle your information, please contact us through the Support page on our website.</p>
+          <p>If you have any questions or concerns about our Privacy Policy or how we handle your information, please contact us through our Support page on our website.</p>
         </section>
       </div>
     </main>
