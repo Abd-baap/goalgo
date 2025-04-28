@@ -33,7 +33,7 @@ export default function TermsOfService() {
 
         <section className="space-y-6">
           <h2 className="text-2xl font-semibold">6. Disclaimers</h2>
-          <p>GoalGo is provided "as-is" without warranties of any kind. We do not guarantee that the service will be available at all times or free from errors. Your use of GoalGo is at your own risk.</p>
+          <p>GoalGo is provided &quot;as-is&quot; without warranties of any kind. We do not guarantee that the service will be available at all times or free from errors. Your use of GoalGo is at your own risk.</p>
         </section>
 
         <section className="space-y-6">
