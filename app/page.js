@@ -1,7 +1,6 @@
 import HeroSection from './components/HeroSection';
 import GoalOptions from './components/GoalOptions';
 import ContributionSection from './components/ContributionSection';
-import Goal from './components/Goal';
 
 export default function Home() {
   return (
